@@ -1,0 +1,6 @@
+framework module Pods_DiaryApp2 {
+  umbrella header "Pods-DiaryApp2-umbrella.h"
+
+  export *
+  module * { export * }
+}

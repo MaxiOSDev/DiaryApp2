@@ -27,9 +27,8 @@
 		FB5927E420504A19006FF9AA /* UIImageViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5927E320504A19006FF9AA /* UIImageViewX.swift */; };
 		FB5927E620504A3D006FF9AA /* ComposeEntryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5927E520504A3D006FF9AA /* ComposeEntryCell.swift */; };
 		FB5927E820504A5C006FF9AA /* DiaryEntryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5927E720504A5C006FF9AA /* DiaryEntryCell.swift */; };
-		FB5927EB20504B02006FF9AA /* Entry+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5927E920504B02006FF9AA /* Entry+CoreDataClass.swift */; };
-		FB5927EC20504B02006FF9AA /* Entry+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5927EA20504B02006FF9AA /* Entry+CoreDataProperties.swift */; };
 		FB5927EE20504C9E006FF9AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5927ED20504C9E006FF9AA /* Main.storyboard */; };
+		FBDCEC032052CBD0008E6576 /* EntryProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDCEC022052CBD0008E6576 /* EntryProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,9 +70,8 @@
 		FB5927E320504A19006FF9AA /* UIImageViewX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewX.swift; sourceTree = "<group>"; };
 		FB5927E520504A3D006FF9AA /* ComposeEntryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeEntryCell.swift; sourceTree = "<group>"; };
 		FB5927E720504A5C006FF9AA /* DiaryEntryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryEntryCell.swift; sourceTree = "<group>"; };
-		FB5927E920504B02006FF9AA /* Entry+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Entry+CoreDataClass.swift"; path = "/Users/PersonalWorkAccount/Desktop/DiaryApp2/DiaryApp2/Entry+CoreDataClass.swift"; sourceTree = "<absolute>"; };
-		FB5927EA20504B02006FF9AA /* Entry+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Entry+CoreDataProperties.swift"; path = "/Users/PersonalWorkAccount/Desktop/DiaryApp2/DiaryApp2/Entry+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
 		FB5927ED20504C9E006FF9AA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FBDCEC022052CBD0008E6576 /* EntryProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryProperties.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,8 +147,7 @@
 				FB5927B42050470C006FF9AA /* Info.plist */,
 				FB5927D82050497A006FF9AA /* CoreDataStack.swift */,
 				FB5927AC2050470C006FF9AA /* DiaryApp2.xcdatamodeld */,
-				FB5927E920504B02006FF9AA /* Entry+CoreDataClass.swift */,
-				FB5927EA20504B02006FF9AA /* Entry+CoreDataProperties.swift */,
+				FBDCEC022052CBD0008E6576 /* EntryProperties.swift */,
 			);
 			path = DiaryApp2;
 			sourceTree = "<group>";
@@ -455,9 +452,7 @@
 				FB5927E0205049E5006FF9AA /* TextViewPlaceholder.swift in Sources */,
 				FB5927CE205048C3006FF9AA /* DiaryFetchedResultsController.swift in Sources */,
 				FB5927E2205049FF006FF9AA /* UIButtonX.swift in Sources */,
-				FB5927EC20504B02006FF9AA /* Entry+CoreDataProperties.swift in Sources */,
 				FB5927D420504911006FF9AA /* LocationManager.swift in Sources */,
-				FB5927EB20504B02006FF9AA /* Entry+CoreDataClass.swift in Sources */,
 				FB5927DE205049C7006FF9AA /* ColoredTextLabel.swift in Sources */,
 				FB5927D92050497A006FF9AA /* CoreDataStack.swift in Sources */,
 				FB5927E620504A3D006FF9AA /* ComposeEntryCell.swift in Sources */,
@@ -467,6 +462,7 @@
 				FB5927E420504A19006FF9AA /* UIImageViewX.swift in Sources */,
 				FB5927AE2050470C006FF9AA /* DiaryApp2.xcdatamodeld in Sources */,
 				FB5927A62050470C006FF9AA /* AppDelegate.swift in Sources */,
+				FBDCEC032052CBD0008E6576 /* EntryProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

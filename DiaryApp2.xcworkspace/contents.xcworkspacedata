@@ -2,12 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/PersonalWorkAccount/Desktop/DiaryApp2/DiaryApp2/Entry+CoreDataClass.swift">
-   </FileRef>
-   <FileRef
-      location = "group:/Users/PersonalWorkAccount/Desktop/DiaryApp2/DiaryApp2/Entry+CoreDataProperties.swift">
-   </FileRef>
-   <FileRef
       location = "group:DiaryApp2.xcodeproj">
    </FileRef>
    <FileRef

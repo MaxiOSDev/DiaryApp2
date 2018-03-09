@@ -1,30 +1,31 @@
 //
-//  Entry+CoreDataProperties.swift
-//  
+//  EntryProperties.swift
+//  DiaryApp2
 //
-//  Created by Max Ramirez on 3/7/18.
-//
+//  Created by Max Ramirez on 3/9/18.
+//  Copyright © 2018 Max Ramirez. All rights reserved.
 //
 
 import Foundation
 import CoreData
 import UIKit
 
-extension Entry {
+public class Entry: NSManagedObject {}
 
+extension Entry {
+    
     @nonobjc public class func fetchRequest() -> NSFetchRequest<Entry> {
         let request = NSFetchRequest<Entry>(entityName: "Entry")
         request.sortDescriptors = [NSSortDescriptor(key: "dateHelper", ascending: false)]
         return request
     }
-
+    
     @NSManaged public var date: NSDate
     @NSManaged public var dateHelper: NSDate
     @NSManaged public var location: String?
     @NSManaged public var photo: [NSData]
     @NSManaged public var status: String?
     @NSManaged public var text: String
-
 }
 
 extension Entry {

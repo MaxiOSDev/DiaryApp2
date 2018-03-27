@@ -78,6 +78,7 @@ class Diary_AppTests: XCTestCase {
     
     // Test Entry Deletion
     func testDeleteEntry() {
+        createEntry() // Creates entry for deletion.
         // Asserts that there is an entry already in memory
         XCTAssert(fetchedResultsController.fetchedObjects?.count == 1, "More or less than 1 entry found")
         deleteEntry() // Then deletes
